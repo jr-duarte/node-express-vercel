@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req, res) => res.send("Home Page Routeee"));
+app.get("/", (req, res) => res.send(new Date()));
 
 app.get("/about", (req, res) => res.send("About Page Route"));
 
